@@ -1,1 +1,233 @@
 <?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+<GeneDef Name="BeautyOutdoorsBase" Abstract="True">
+    <displayCategory>Miscellaneous</displayCategory>
+    <exclusionTags>
+      <li>BeautyOutdoors</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="BeautyOutdoorsBase">
+    <defName>BeautyOutdoors_SmallIncrease</defName>
+    <label>wider wavelength</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/BeautyOutdoors_SmallIncrease</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <statFactors>
+      <BeautyOutdoors>2</BeautyOutdoors>
+    </statFactors>
+    <biostatMet>-1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>thag</symbol></li>
+        <li><symbol>grunt</symbol></li>
+        <li><symbol>slow</symbol></li>
+        <li><symbol>dull</symbol></li>
+        <li><symbol>dumb</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>grunt</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="BeautyOutdoorsBase">
+    <defName>BeautyOutdoors_Low</defName>
+    <label>colorblind</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/BeautyOutdoors_SmallDecrease</iconPath>
+    <displayOrderInCategory>35</displayOrderInCategory>
+    <statOffsets>
+      <BeautyOutdoors>-1</BeautyOutdoors>
+    </statOffsets>
+    <biostatMet>1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>brain</symbol></li>
+        <li><symbol>nerd</symbol></li>
+        <li><symbol>smart</symbol></li>
+        <li><symbol>corti</symbol></li>
+        <li><symbol>neuro</symbol></li>
+        <li><symbol>mnemo</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>nerd</symbol></li>
+        <li><symbol>brain</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef Name="SellPriceFactorBase" Abstract="True">
+    <displayCategory>Miscellaneous</displayCategory>
+    <exclusionTags>
+      <li>SellPriceFactor</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="SellPriceFactorBase">
+    <defName>SellPriceFactor_SmallIncrease</defName>
+    <label>versatile voice</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/SellPriceFactor_SmallIncrease</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <statFactors>
+      <SellPriceFactor>0.15</SellPriceFactor>
+    </statFactors>
+    <biostatMet>-1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>thag</symbol></li>
+        <li><symbol>grunt</symbol></li>
+        <li><symbol>slow</symbol></li>
+        <li><symbol>dull</symbol></li>
+        <li><symbol>dumb</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>grunt</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="SellPriceFactorBase">
+    <defName>SellPriceFactor_SmallDecrease</defName>
+    <label>monotone voice</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/SellPriceFactor_SmallDecrease</iconPath>
+    <displayOrderInCategory>35</displayOrderInCategory>
+    <statOffsets>
+      <SellPriceFactor>-0.15</SellPriceFactor>
+    </statOffsets>
+    <biostatMet>1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>brain</symbol></li>
+        <li><symbol>nerd</symbol></li>
+        <li><symbol>smart</symbol></li>
+        <li><symbol>corti</symbol></li>
+        <li><symbol>neuro</symbol></li>
+        <li><symbol>mnemo</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>nerd</symbol></li>
+        <li><symbol>brain</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef Name="DrugSellPriceImprovementBase" Abstract="True">
+    <displayCategory>Miscellaneous</displayCategory>
+    <exclusionTags>
+      <li>DrugSellPriceImprovement</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="DrugSellPriceImprovementBase">
+    <defName>DrugSellPriceImprovement_SmallIncrease</defName>
+    <label>versatile voice</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/DrugSellPriceImprovement_SmallIncrease</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <statFactors>
+      <DrugSellPriceImprovement>0.25</DrugSellPriceImprovement>
+    </statFactors>
+    <biostatMet>-1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>thag</symbol></li>
+        <li><symbol>grunt</symbol></li>
+        <li><symbol>slow</symbol></li>
+        <li><symbol>dull</symbol></li>
+        <li><symbol>dumb</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>grunt</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="DrugSellPriceImprovementBase">
+    <defName>DrugSellPriceImprovement_SmallDecrease</defName>
+    <label>monotone voice</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/DrugSellPriceImprovement_SmallDecrease</iconPath>
+    <displayOrderInCategory>35</displayOrderInCategory>
+    <statOffsets>
+      <DrugSellPriceImprovement>-0.25</DrugSellPriceImprovement>
+    </statOffsets>
+    <biostatMet>1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>brain</symbol></li>
+        <li><symbol>nerd</symbol></li>
+        <li><symbol>smart</symbol></li>
+        <li><symbol>corti</symbol></li>
+        <li><symbol>neuro</symbol></li>
+        <li><symbol>mnemo</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>nerd</symbol></li>
+        <li><symbol>brain</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef Name="ResearchSpeedBase" Abstract="True">
+    <displayCategory>Miscellaneous</displayCategory>
+    <exclusionTags>
+      <li>ResearchSpeedBase</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="ResearchSpeedBase">
+    <defName>ResearchSpeed_SmallIncrease</defName>
+    <label>versatile voice</label>
+    <description>Bigger froant lobe</description>
+    <iconPath>UI/Icons/Genes/ResearchSpeed_SmallIncrease</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <statFactors>
+      <DrugSellPriceImprovement>0.25</DrugSellPriceImprovement>
+    </statFactors>
+    <biostatMet>-1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>thag</symbol></li>
+        <li><symbol>grunt</symbol></li>
+        <li><symbol>slow</symbol></li>
+        <li><symbol>dull</symbol></li>
+        <li><symbol>dumb</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>grunt</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="ResearchSpeedBase">
+    <defName>ResearchSpeed_SmallDecrease</defName>
+    <label>monotone voice</label>
+    <description>Smaller frontal lobe</description>
+    <iconPath>UI/Icons/Genes/ResearchSpeed_SmallDecrease</iconPath>
+    <displayOrderInCategory>35</displayOrderInCategory>
+    <statOffsets>
+      <DrugSellPriceImprovement>-0.25</DrugSellPriceImprovement>
+    </statOffsets>
+    <biostatMet>1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>brain</symbol></li>
+        <li><symbol>nerd</symbol></li>
+        <li><symbol>smart</symbol></li>
+        <li><symbol>corti</symbol></li>
+        <li><symbol>neuro</symbol></li>
+        <li><symbol>mnemo</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>nerd</symbol></li>
+        <li><symbol>brain</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>
