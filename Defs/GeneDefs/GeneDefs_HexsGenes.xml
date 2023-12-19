@@ -12,7 +12,7 @@
   <GeneDef ParentName="BeautyOutdoorsBase">
     <defName>BeautyOutdoors_SmallIncrease</defName>
     <label>wider wavelength</label>
-    <description>Their eyes can percieve both UV and infrared rays, seeign the hidden beauty of the outdoors</description>
+    <description>Their eyes can percieve both UV and infrared rays, seeing the hidden beauty of the outdoors</description>
     <iconPath>UI/Icons/Genes/BeautyOutdoors_SmallIncrease</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <statOffsets>
@@ -39,7 +39,7 @@
     <iconPath>UI/Icons/Genes/BeautyOutdoors_SmallDecrease</iconPath>
     <displayOrderInCategory>35</displayOrderInCategory>
     <statOffsets>
-      <BeautyOutdoors>-1</BeautyOutdoors>
+      <BeautyOutdoors>-2</BeautyOutdoors>
     </statOffsets>
     <biostatMet>1</biostatMet>
     <symbolPack>
@@ -171,114 +171,6 @@
       </suffixSymbols>
     </symbolPack>
   </GeneDef>
-
-  <GeneDef Name="ResearchSpeedBase" Abstract="True">
-    <displayCategory>Miscellaneous</displayCategory>
-    <exclusionTags>
-      <li>ResearchSpeedBase</li>
-    </exclusionTags>
-  </GeneDef>
-
-  <GeneDef ParentName="ResearchSpeedBase">
-    <defName>ResearchSpeed_SmallIncrease</defName>
-    <label>well developed frontal lobe</label>
-    <description>The frontal lobe has more neurons, helps notice logical connections between subject matters faster.</description>
-    <iconPath>UI/Icons/Genes/ResearchSpeed_SmallIncrease</iconPath>
-    <displayOrderInCategory>30</displayOrderInCategory>
-    <statOffsets>
-      <ResearchSpeed>0.15</ResearchSpeed>
-    </statOffsets>
-    <biostatMet>-1</biostatMet>
-    <symbolPack>
-      <prefixSymbols>
-        <li><symbol>thag</symbol></li>
-        <li><symbol>grunt</symbol></li>
-        <li><symbol>slow</symbol></li>
-        <li><symbol>dull</symbol></li>
-        <li><symbol>dumb</symbol></li>
-      </prefixSymbols>
-      <suffixSymbols>
-        <li><symbol>grunt</symbol></li>
-      </suffixSymbols>
-    </symbolPack>
-  </GeneDef>
-  
-  <GeneDef ParentName="ResearchSpeedBase">
-    <defName>ResearchSpeed_BigIncrease</defName>
-    <label>extremely developed frontal lobe</label>
-    <description>The frontal lobe has much more neurons, helps notice logical connections between subject matters even faster.</description>
-    <iconPath>UI/Icons/Genes/ResearchSpeed_BigIncrease</iconPath>
-    <displayOrderInCategory>30</displayOrderInCategory>
-    <statOffsets>
-      <ResearchSpeed>0.35</ResearchSpeed>
-    </statOffsets>
-    <biostatMet>-2</biostatMet>
-    <symbolPack>
-      <prefixSymbols>
-        <li><symbol>thag</symbol></li>
-        <li><symbol>grunt</symbol></li>
-        <li><symbol>slow</symbol></li>
-        <li><symbol>dull</symbol></li>
-        <li><symbol>dumb</symbol></li>
-      </prefixSymbols>
-      <suffixSymbols>
-        <li><symbol>grunt</symbol></li>
-      </suffixSymbols>
-    </symbolPack>
-  </GeneDef>
-
-  <GeneDef ParentName="ResearchSpeedBase">
-    <defName>ResearchSpeed_SmallDecrease</defName>
-    <label>udnerdeveloped frontal lobe</label>
-    <description>Low neuron count in the frontal lobe, hidners research efforts</description>
-    <iconPath>UI/Icons/Genes/ResearchSpeed_SmallDecrease</iconPath>
-    <displayOrderInCategory>35</displayOrderInCategory>
-    <statOffsets>
-      <ResearchSpeed>-0.15</ResearchSpeed>
-    </statOffsets>
-    <biostatMet>1</biostatMet>
-    <symbolPack>
-      <prefixSymbols>
-        <li><symbol>brain</symbol></li>
-        <li><symbol>nerd</symbol></li>
-        <li><symbol>smart</symbol></li>
-        <li><symbol>corti</symbol></li>
-        <li><symbol>neuro</symbol></li>
-        <li><symbol>mnemo</symbol></li>
-      </prefixSymbols>
-      <suffixSymbols>
-        <li><symbol>nerd</symbol></li>
-        <li><symbol>brain</symbol></li>
-      </suffixSymbols>
-    </symbolPack>
-  </GeneDef>
-
-  <GeneDef ParentName="ResearchSpeedBase">
-    <defName>ResearchSpeed_BigDecrease</defName>
-    <label>very udnerdeveloped frontal lobe</label>
-    <description>Very low neuron count in the frontal lobe, hidners research efforts</description>
-    <iconPath>UI/Icons/Genes/ResearchSpeed_BigDecrease</iconPath>
-    <displayOrderInCategory>35</displayOrderInCategory>
-    <statOffsets>
-      <ResearchSpeed>-0.35</ResearchSpeed>
-    </statOffsets>
-    <biostatMet>2</biostatMet>
-    <symbolPack>
-      <prefixSymbols>
-        <li><symbol>brain</symbol></li>
-        <li><symbol>nerd</symbol></li>
-        <li><symbol>smart</symbol></li>
-        <li><symbol>corti</symbol></li>
-        <li><symbol>neuro</symbol></li>
-        <li><symbol>mnemo</symbol></li>
-      </prefixSymbols>
-      <suffixSymbols>
-        <li><symbol>nerd</symbol></li>
-        <li><symbol>brain</symbol></li>
-      </suffixSymbols>
-    </symbolPack>
-  </GeneDef>
-
 
   
   <GeneDef Name="ConstructionSpeedBase" Abstract="True">
@@ -515,8 +407,8 @@
 
   <GeneDef ParentName="MiningSpeedBase">
     <defName>MiningSpeed_SmallIncrease</defName>
-    <label>strong leg muscles</label>
-    <description>Stronger leg muscles help pawns kick the broken up stone from mountain walls</description>
+    <label>seismic sensors</label>
+    <description>Can tell where to strike the rock's weak point just by touching it and tapping around.</description>
     <iconPath>UI/Icons/Genes/MiningSpeed_SmallIncrease</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <statOffsets>
@@ -1006,7 +898,7 @@
     <iconPath>UI/Icons/Genes/SmoothingSpeed_SmallDecrease</iconPath>
     <displayOrderInCategory>35</displayOrderInCategory>
     <statOffsets>
-      <SmoothingSpeed>-0.3</SmoothingSpeed>
+      <SmoothingSpeed>-0.35</SmoothingSpeed>
     </statOffsets>
     <biostatMet>1</biostatMet>
     <symbolPack>
