@@ -870,7 +870,7 @@
   <GeneDef ParentName="SmoothingSpeedBase">
     <defName>SmoothingSpeed_SmallIncrease</defName>
     <label>small acid spit</label>
-    <description>Can spit acid to smooths walls faster, but it's not pwoerful enough to use in combat</description>
+    <description>Can spit acid to smooths walls faster, but it's not powerful enough to use in combat</description>
     <iconPath>UI/Icons/Genes/SmoothingSpeed_SmallIncrease</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <statOffsets>
