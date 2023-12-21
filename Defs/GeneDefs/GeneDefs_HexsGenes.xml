@@ -19,17 +19,6 @@
       <BeautyOutdoors>2</BeautyOutdoors>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
-      <prefixSymbols>
-        <li><symbol>thag</symbol></li>
-        <li><symbol>slow</symbol></li>
-        <li><symbol>dull</symbol></li>
-        <li><symbol>dumb</symbol></li>
-      </prefixSymbols>
-      <suffixSymbols>
-        <li><symbol>grunt</symbol></li>
-      </suffixSymbols>
-    </symbolPack>
   </GeneDef>
 
   <GeneDef ParentName="BeautyOutdoorsBase">
@@ -42,20 +31,6 @@
       <BeautyOutdoors>-2</BeautyOutdoors>
     </statOffsets>
     <biostatMet>1</biostatMet>
-    <symbolPack>
-      <prefixSymbols>
-        <li><symbol>brain</symbol></li>
-        <li><symbol>nerd</symbol></li>
-        <li><symbol>smart</symbol></li>
-        <li><symbol>corti</symbol></li>
-        <li><symbol>neuro</symbol></li>
-        <li><symbol>mnemo</symbol></li>
-      </prefixSymbols>
-      <suffixSymbols>
-        <li><symbol>nerd</symbol></li>
-        <li><symbol>brain</symbol></li>
-      </suffixSymbols>
-    </symbolPack>
   </GeneDef>
 
   <GeneDef Name="SellPriceFactorBase" Abstract="True">
@@ -75,18 +50,6 @@
       <SellPriceFactor>0.15</SellPriceFactor>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
-      <prefixSymbols>
-        <li><symbol>thag</symbol></li>
-        <li><symbol>grunt</symbol></li>
-        <li><symbol>slow</symbol></li>
-        <li><symbol>dull</symbol></li>
-        <li><symbol>dumb</symbol></li>
-      </prefixSymbols>
-      <suffixSymbols>
-        <li><symbol>grunt</symbol></li>
-      </suffixSymbols>
-    </symbolPack>
   </GeneDef>
 
   <GeneDef ParentName="SellPriceFactorBase">
@@ -100,7 +63,7 @@
     </statOffsets>
     <biostatMet>1</biostatMet>
     <symbolPack>
-      <prefixSymbols>
+      <!-- <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
         <li><symbol>smart</symbol></li>
@@ -112,7 +75,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef Name="DrugSellPriceImprovementBase" Abstract="True">
@@ -132,7 +95,7 @@
       <DrugSellPriceImprovement>0.25</DrugSellPriceImprovement>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -143,7 +106,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="DrugSellPriceImprovementBase">
@@ -156,7 +119,7 @@
       <DrugSellPriceImprovement>-0.25</DrugSellPriceImprovement>
     </statOffsets>
     <biostatMet>1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -169,7 +132,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   
@@ -191,7 +154,7 @@
       <AssemblySpeedFactor>0.25</AssemblySpeedFactor>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -202,7 +165,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="ConstructionSpeedBase">
@@ -216,7 +179,7 @@
       <AssemblySpeedFactor>0.5</AssemblySpeedFactor>
     </statOffsets>
     <biostatMet>-2</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -227,7 +190,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="ConstructionSpeedBase">
@@ -241,7 +204,7 @@
       <AssemblySpeedFactor>-0.25</AssemblySpeedFactor>
     </statOffsets>
     <biostatMet>1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -254,7 +217,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="ConstructionSpeedBase">
@@ -268,7 +231,7 @@
       <AssemblySpeedFactor>-0.5</AssemblySpeedFactor>
     </statOffsets>
     <biostatMet>2</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -281,7 +244,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef Name="EatingSpeedBase" Abstract="True">
@@ -301,7 +264,7 @@
       <EatingSpeed>0.5</EatingSpeed>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -312,7 +275,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="EatingSpeedBase">
@@ -325,7 +288,7 @@
       <EatingSpeed>-0.5</EatingSpeed>
     </statOffsets>
     <biostatMet>1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -338,7 +301,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef Name="PruningSpeedBase" Abstract="True">
@@ -358,7 +321,7 @@
       <PruningSpeed>0.5</PruningSpeed>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -369,7 +332,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="PruningSpeedBase">
@@ -382,7 +345,7 @@
       <PruningSpeed>-0.5</PruningSpeed>
     </statOffsets>
     <biostatMet>1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -395,7 +358,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef Name="MiningSpeedBase" Abstract="True">
@@ -415,7 +378,7 @@
       <MiningSpeed>0.5</MiningSpeed>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -426,7 +389,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="MiningSpeedBase">
@@ -439,7 +402,7 @@
       <MiningSpeed>-0.5</MiningSpeed>
     </statOffsets>
     <biostatMet>1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -452,7 +415,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef Name="GrowthVatOccupantSpeedBase" Abstract="True">
@@ -473,7 +436,7 @@
       <BiosculpterPodSpeedFactor>0.5</BiosculpterPodSpeedFactor>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -484,7 +447,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="GrowthVatOccupantSpeedBase">
@@ -498,7 +461,7 @@
       <BiosculpterPodSpeedFactor>-0.5</BiosculpterPodSpeedFactor>
     </statOffsets>
     <biostatMet>1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -511,7 +474,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
 
@@ -532,7 +495,7 @@
       <ArrestSuccessChance>0.5</ArrestSuccessChance>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -543,7 +506,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="ArrestSuccessChanceBase">
@@ -556,7 +519,7 @@
       <ArrestSuccessChance>-0.5</ArrestSuccessChance>
     </statOffsets>
     <biostatMet>1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -569,7 +532,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef Name="SocialImpactBase" Abstract="True">
@@ -589,7 +552,7 @@
       <SocialImpact>0.25</SocialImpact>
     </statOffsets>
     <biostatMet>1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -600,7 +563,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="SocialImpactBase">
@@ -613,7 +576,7 @@
       <SocialImpact>-0.25</SocialImpact>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -626,7 +589,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef Name="EnergyShieldRechargeRateBase" Abstract="True">
@@ -647,7 +610,7 @@
       <EnergyShieldEnergyMax>0.4</EnergyShieldEnergyMax>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -658,7 +621,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="EnergyShieldRechargeRateBase">
@@ -673,7 +636,7 @@
       <PawnBeauty>1</PawnBeauty>
     </statOffsets>
     <biostatMet>0</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -686,7 +649,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef Name="JoyGainFactorBase" Abstract="True">
@@ -706,7 +669,7 @@
       <JoyGainFactor>0.25</JoyGainFactor>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -717,7 +680,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="JoyGainFactorBase">
@@ -730,7 +693,7 @@
       <JoyGainFactor>-0.25</JoyGainFactor>
     </statOffsets>
     <biostatMet>1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -743,7 +706,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef Name="FilthMultiplierBase" Abstract="True">
@@ -763,7 +726,7 @@
       <FilthMultiplier>0.35</FilthMultiplier>
     </statOffsets>
     <biostatMet>1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -774,7 +737,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="FilthMultiplierBase">
@@ -787,7 +750,7 @@
       <FilthMultiplier>-0.35</FilthMultiplier>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -800,7 +763,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef Name="ConversionPowerBase" Abstract="True">
@@ -820,7 +783,7 @@
       <ConversionPower>0.25</ConversionPower>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -831,7 +794,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="ConversionPowerBase">
@@ -844,7 +807,7 @@
       <ConversionPower>-0.25</ConversionPower>
     </statOffsets>
     <biostatMet>1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -857,7 +820,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef Name="SmoothingSpeedBase" Abstract="True">
@@ -877,7 +840,7 @@
       <SmoothingSpeed>0.5</SmoothingSpeed>
     </statOffsets>
     <biostatMet>-1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>thag</symbol></li>
         <li><symbol>grunt</symbol></li>
@@ -888,7 +851,7 @@
       <suffixSymbols>
         <li><symbol>grunt</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
   <GeneDef ParentName="SmoothingSpeedBase">
@@ -901,7 +864,7 @@
       <SmoothingSpeed>-0.35</SmoothingSpeed>
     </statOffsets>
     <biostatMet>1</biostatMet>
-    <symbolPack>
+    <!-- <symbolPack>
       <prefixSymbols>
         <li><symbol>brain</symbol></li>
         <li><symbol>nerd</symbol></li>
@@ -914,7 +877,7 @@
         <li><symbol>nerd</symbol></li>
         <li><symbol>brain</symbol></li>
       </suffixSymbols>
-    </symbolPack>
+    </symbolPack> -->
   </GeneDef>
 
 
