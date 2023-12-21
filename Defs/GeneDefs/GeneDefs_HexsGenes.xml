@@ -350,8 +350,8 @@
 
   <GeneDef ParentName="PruningSpeedBase">
     <defName>PruningSpeed_SmallIncrease</defName>
-    <label>taller</label>
-    <description>A gene that makes pawns taller, so they can reach branches easier</description>
+    <label>plant harmony</label>
+    <description>A gene that makes pawns being able to sense how and where to cut plants exactly.</description>
     <iconPath>UI/Icons/Genes/PruningSpeed_SmallIncrease</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <statOffsets>
@@ -374,8 +374,8 @@
 
   <GeneDef ParentName="PruningSpeedBase">
     <defName>PruningSpeed_SmallDecrease</defName>
-    <label>shorter</label>
-    <description>A gene that makes pawns shorter, so they can reach branches harder</description>
+    <label>afraid of shears</label>
+    <description>They are genetically afraid of shears.</description>
     <iconPath>UI/Icons/Genes/PruningSpeed_SmallDecrease</iconPath>
     <displayOrderInCategory>35</displayOrderInCategory>
     <statOffsets>
