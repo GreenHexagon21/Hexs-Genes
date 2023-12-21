@@ -638,8 +638,8 @@
 
   <GeneDef ParentName="EnergyShieldRechargeRateBase">
     <defName>EnergyShieldRechargeRate_SmallIncrease</defName>
-    <label>versatile voice</label>
-    <description></description>
+    <label>static buildup</label>
+    <description>By moving around they build up so much static electricity that they can use it to charge their shields</description>
     <iconPath>UI/Icons/Genes/EnergyShieldRechargeRate_SmallIncrease</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <statOffsets>
